@@ -95,4 +95,12 @@
   .header__container-image__tablet {
     display: none;
   }
+
+  .header__hamburger-menu { 
+    display: none;
+  }
+
+  .header__container-image {
+    padding: 0 1.5em;
+  }
 }
