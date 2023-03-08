@@ -1,0 +1,29 @@
+.most-visited {
+  background: var(--blue-gradient);
+}
+
+.most-visited__title {
+  font-weight: 300;
+  padding: 1.5em 0 2em 0;
+  text-transform: uppercase;
+}
+
+.most-visited__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 0 1em 1.5em 1em;
+  justify-content: center;
+}
+
+.most-visited__list-item {
+  font-size: 0.875em;
+  font-weight: 700;
+  padding: 1em 1.5em;
+  background: var(--orange-color);
+}
+
+.most-visited__list-item__link {
+  text-decoration: none;
+  color: var(--header-color);
+}
