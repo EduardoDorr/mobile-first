@@ -40,3 +40,28 @@
   background: url(../assets/img/Email.svg) no-repeat;
   background-position: 0.5em;
 }
+
+@media screen and (min-width: 1024px) {
+  .newsletter {
+    display: flex;
+    width: 65%;
+    margin: 2em auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  
+  .newsletter__title {
+    font-size: 1.5em;
+  }
+
+  .newsletter__email {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .newsletter {
+    width: 50%;
+  }
+}

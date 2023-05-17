@@ -27,3 +27,38 @@
   text-decoration: none;
   color: var(--header-color);
 }
+
+@media screen and (min-width: 1024px) {
+  .most-visited__title {
+    font-size: 1.5em;
+  }
+  
+  .most-visited__list {
+    width: 75%;
+    margin: auto;
+  }
+
+  .most-visited__list-item {
+    padding: 1.5em 2em;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .most-visited {
+    padding: 2em 0;
+  }
+
+  .most-visited__title {
+    font-size: 2em;
+    padding: 1em;
+  }
+  
+  .most-visited__list {
+    width: 50%;
+  }
+
+  .most-visited__list-item {
+    font-size: 1.5em;
+    padding: 1.5em 2em;
+  }
+}

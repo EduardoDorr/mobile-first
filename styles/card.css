@@ -62,3 +62,21 @@
 .card__content__image {
   align-self: start;
 }
+
+@media screen and (min-width: 1024px) {
+  .card {
+    margin: 3em auto;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .card__content__title {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  .card__content-description {
+    width: 70%;
+  }
+}
